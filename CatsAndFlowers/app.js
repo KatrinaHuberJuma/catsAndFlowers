@@ -16,6 +16,9 @@ app.get('/cats', (request, response) => {
 app.get('/flowers', (request, response) => {
     response.render("flowers");
 });
+app.get('/form', (request, response) => {
+    response.render("form");
+});
 
 
 
